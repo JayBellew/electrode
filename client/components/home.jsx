@@ -22,7 +22,7 @@ class Home extends React.Component {
     const {checked, value} = props;
     return (
       <div>
-        <h1>Hello <a href={"https://github.com/electrode-io"}>{"Electrode"}</a></h1>
+        <h1>Hello Yall <a href={"https://github.com/electrode-io"}>{"Electrode"}</a></h1>
         <div> <p>Our beloved friends</p></div>
         <div className="images">
           {imageUrls.map((imageUrl, index) => this.renderImage(imageUrl, index))}
